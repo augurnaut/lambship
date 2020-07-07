@@ -1,0 +1,11 @@
+conda activate unit2
+cd Documents\GitHub\lambdata_example\lambship
+pipenv shell
+pipenv install pandas numpy
+pipenv install -d twine
+python setup.py sdist bdist_wheel
+twine upload --repository testpypi dist/*
+doskey\history
+doskey /History
+doskey /History>history.txt
+doskey /History > history.txt 
